@@ -1,9 +1,11 @@
-# Project for ECE-418 (Neural Networks) : Use Neual Networks with Keras to make predictions on citations' timelines
+# Project for ECE-418 (Neural Networks) : Use Neural Networks with Keras to make predictions on citations' timelines
 
-
-LSTM_split_sequences.py : the fi
-test.py : 
-  
+**Files included** :
+* LSTM_split_sequences.py : The final python file, which has the implementation of the LSTM network and the sequence splitting
+* test.py : Run immediately after 'LSTM_split_sequences.py', in order to make predictions to our test_data.
+*  
+*  
+ 
 What **dataset** did we have? 
 * A huge raw, txt dataset from (https://aminer.org/citation - Citation-network V1) with papers published from 1950 and after. 
 The information that we are interested in is the citations that each paper made. 
